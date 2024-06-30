@@ -1,4 +1,4 @@
-# VD-CVFI
+# VFI-CVD
 
 Code relaese for *Describing Visual Attributes with Pre-trained Image Encoder for Few-shot Fine-grained Recognition*.
 
@@ -8,7 +8,7 @@ Code relaese for *Describing Visual Attributes with Pre-trained Image Encoder fo
 
   ```shell
   conda env create -f environment.yml
-  conda activate VD-CVFI
+  conda activate VFI-CVD
   ```
 
 ## Dataset
@@ -21,7 +21,7 @@ The official link of CUB-200-2011 is [here](http://www.vision.caltech.edu/datase
 
 ## Train
 
-* To train VD-CVFI on `CUB_fewshot_cropped` with Conv-4 backbone under the 1/5-shot setting, run the following command lines:
+* To train VFI-CVD on `CUB_fewshot_cropped` with Conv-4 backbone under the 1/5-shot setting, run the following command lines:
 
 ```shell
 cd experiments/CUB_fewshot_cropped/CVF/Conv-4
