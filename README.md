@@ -13,11 +13,7 @@ Code relaese for *Describing Visual Attributes with Pre-trained Image Encoder fo
 
 ## Dataset
 
-Thanks to the contribution of [BiFRN](https://github.com/PRIS-CV/Bi-FRN), we performe our experiments based on their processed few-shot fine-grained recognition datasets:
-
-- CUB_200_2011 \[[Download Link](https://drive.google.com/file/d/1WxDB3g3U_SrF2sv-DmFYl8LS0p_wAowh/view)\]
-- cars \[[Download Link](https://drive.google.com/file/d/1ImEPQH5gHpSE_Mlq8bRvxxcUXOwdHIeF/view?usp=drive_link)\]
-- dogs \[[Download Link](https://drive.google.com/file/d/13avzK22oatJmtuyK0LlShWli00NsF6N0/view?usp=drive_link)\]
+Thanks to the contribution of [BiFRN](https://github.com/PRIS-CV/Bi-FRN), we performe our experiments based on their processed few-shot fine-grained recognition datasets: [CUB-200-2011](https://drive.google.com/file/d/1WxDB3g3U_SrF2sv-DmFYl8LS0p_wAowh/view), [Stanford Cars](https://drive.google.com/file/d/1ImEPQH5gHpSE_Mlq8bRvxxcUXOwdHIeF/view?usp=drive_link), [Stanford Dogs](https://drive.google.com/file/d/13avzK22oatJmtuyK0LlShWli00NsF6N0/view?usp=drive_link).
 
 ## Train
 
