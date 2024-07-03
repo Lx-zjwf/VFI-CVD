@@ -1,4 +1,4 @@
-# VD-CVFI
+# VFI-CVD
 
 Code relaese for *Describing Visual Attributes with Pre-trained Image Encoder for Few-shot Fine-grained Recognition*.
 
@@ -8,20 +8,16 @@ Code relaese for *Describing Visual Attributes with Pre-trained Image Encoder fo
 
   ```shell
   conda env create -f environment.yml
-  conda activate VD-CVFI
+  conda activate VFI-CVD
   ```
 
 ## Dataset
 
-The official link of CUB-200-2011 is [here](http://www.vision.caltech.edu/datasets/cub_200_2011/). The preprocessing of the cropped CUB-200-2011 is the same as [FRN](https://github.com/Tsingularity/FRN), but the categories  of train, val, and test follows split.txt. And then move the processed dataset  to directory ./data.
-
-- CUB_200_2011 \[[Download Link](https://drive.google.com/file/d/1WxDB3g3U_SrF2sv-DmFYl8LS0p_wAowh/view)\]
-- cars \[[Download Link](https://drive.google.com/file/d/1ImEPQH5gHpSE_Mlq8bRvxxcUXOwdHIeF/view?usp=drive_link)\]
-- dogs \[[Download Link](https://drive.google.com/file/d/13avzK22oatJmtuyK0LlShWli00NsF6N0/view?usp=drive_link)\]
+Thanks to the contribution of [BiFRN](https://github.com/PRIS-CV/Bi-FRN), we performe our experiments based on their processed few-shot fine-grained recognition datasets: [CUB-200-2011](https://drive.google.com/file/d/1WxDB3g3U_SrF2sv-DmFYl8LS0p_wAowh/view), [Stanford Cars](https://drive.google.com/file/d/1ImEPQH5gHpSE_Mlq8bRvxxcUXOwdHIeF/view?usp=drive_link), [Stanford Dogs](https://drive.google.com/file/d/13avzK22oatJmtuyK0LlShWli00NsF6N0/view?usp=drive_link).
 
 ## Train
 
-* To train VD-CVFI on `CUB_fewshot_cropped` with Conv-4 backbone under the 1/5-shot setting, run the following command lines:
+* To train VFI-CVD on `CUB_fewshot_cropped` with Conv-4 backbone under the 1/5-shot setting, run the following command lines:
 
 ```shell
 cd experiments/CUB_fewshot_cropped/CVF/Conv-4
