@@ -1,4 +1,4 @@
-name: VD-CVFI
+name: VFI-CVD
 channels:
   - http://mirrors.aliyun.com/anaconda/pkgs/main
   - https://mirrors.aliyun.com/anaconda/pkgs/main
@@ -243,4 +243,4 @@ dependencies:
     - einops==0.4.0
     - future==0.18.2
     - vit-pytorch==0.26.7
-prefix: /home/xxx/anaconda3/envs/VD-CVFI
+prefix: /home/xxx/anaconda3/envs/VFI-CVD
