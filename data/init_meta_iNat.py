@@ -14,7 +14,6 @@ from utils import util
 # import util
 
 with open('../config.yml', 'r') as f:
-    # with open('config.yml','r') as f:
     config = yaml.safe_load(f)
 
 data_path = os.path.abspath(config['data_path'])
