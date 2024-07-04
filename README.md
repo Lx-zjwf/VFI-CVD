@@ -2,6 +2,12 @@
 
 Code relaese for *Describing Visual Attributes with Pre-trained Image Encoder for Few-shot Fine-grained Recognition*.
 
+## Overall Framework
+
+![framework](./Figure/overall framework.jpg)
+
+we propose to introduce the vision foundation model as a visual attribute descriptor to facilitate meaningful semantic understanding and promote generalization. A Variational Feature Imitation method Conditioned on Visual Descriptions, namely VFI-CVD, is proposed, which integrates the pre-trained knowledge from a vision foundation model and the expert knowledge captured via a feature extractor, thus generating representations with adequate generalization and fine-grained discrimination capability. To the best of our knowledge, this study is the first to exploit pre-trained knowledge to boost FS-FGR in the meta-learning paradigm.
+
 ## Code environment
 
 * You can create a conda environment with the correct dependencies using the following command lines:
