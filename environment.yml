@@ -1,15 +1,16 @@
 name: VFI-CVD
 channels:
-  - http://mirrors.aliyun.com/anaconda/pkgs/main
-  - https://mirrors.aliyun.com/anaconda/pkgs/main
-  - http://mirrors.aliyun.com/anaconda/pkgs/free
-  - http://mirrors.aliyun.com/anaconda/pkgs/r
-  - http://mirrors.aliyun.com/anaconda/pkgs/msys2
-  - http://mirrors.aliyun.com/anaconda/cloud/pytorch
-  - http://mirrors.aliyun.com/anaconda/cloud/bioconda
-  - http://mirrors.aliyun.com/anaconda/cloud/menpo
-  - http://mirrors.aliyun.com/anaconda/cloud/simpleitk
-  - http://mirrors.aliyun.com/anaconda/cloud/conda-forge
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/menpo/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - defaults
 dependencies:
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=1_gnu
@@ -178,7 +179,6 @@ dependencies:
   - python-dateutil=2.8.1=py_0
   - python-slugify=4.0.1=py_0
   - python_abi=3.7=1_cp37m
-  - pytorch=1.7.0=py3.7_cuda11.0.221_cudnn8.0.3_0
   - pytz=2020.4=pyhd3eb1b0_0
   - pywavelets=1.1.1=py37h7b6447c_2
   - pyyaml=5.3.1=py37h7b6447c_1
@@ -215,8 +215,6 @@ dependencies:
   - tk=8.6.10=hbc83047_0
   - tokenizers=0.9.4=py37h17e0dd7_1
   - toolz=0.11.1=py_0
-  - torchaudio=0.7.0=py37
-  - torchvision=0.8.1=py37_cu110
   - tornado=6.1=py37h27cfd23_0
   - tqdm=4.51.0=pyh9f0ad1d_0
   - traitlets=5.0.5=py_0
@@ -225,7 +223,6 @@ dependencies:
   - typing_extensions=3.7.4.3=py_0
   - unidecode=1.1.1=py_0
   - urllib3=1.24.3=py37_0
-  - wcwidth=0.2.5=py_0
   - webencodings=0.5.1=py37_1
   - werkzeug=1.0.1=py_0
   - wheel=0.36.1=pyhd3eb1b0_0
@@ -239,8 +236,15 @@ dependencies:
   - zlib=1.2.11=h7b6447c_3
   - zstd=1.4.5=h9ceee32_0
   - pip:
+    - clip==1.0
     - dataclasses==0.6
     - einops==0.4.0
+    - ftfy==6.2.0
     - future==0.18.2
+    - thop==0.1.1-2209072238
+    - torch==1.10.1+cu111
+    - torchaudio==0.10.1+cu111
+    - torchvision==0.11.2+cu111
     - vit-pytorch==0.26.7
-prefix: /home/xxx/anaconda3/envs/VFI-CVD
+    - wcwidth==0.2.13
+prefix: /home/member/.conda/envs/VFI-CVD
