@@ -10,5 +10,6 @@ python train.py \
     --train_way 20 \
     --train_shot 5 \
     --train_transform_type 0 \
-    --test_transform_type 0 \
+    --test_shot 1 5 \
+    --pre \
     --gpu 0
