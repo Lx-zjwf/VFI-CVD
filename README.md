@@ -17,7 +17,7 @@ conda env create -f environment.yml
 conda activate VFI-CVD
 ```
 
-The vision foundation model is installed as:
+The vision foundation model CLIP\[[Paper](https://arxiv.org/abs/2103.00020),[Code](https://github.com/openai/CLIP)\] is installed as:
 
 ```
 $ pip install ftfy regex tqdm
