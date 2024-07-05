@@ -13,8 +13,8 @@ with open('../../../../config.yml', 'r') as f:
     temp = yaml.safe_load(f)
 data_path = os.path.abspath(temp['data_path'])
 
-test_path = os.path.join(data_path, 'iNat_close/test')
-model_path = './model_Close.pth'
+test_path = os.path.join(data_path, 'meta_iNat/test')
+model_path = './model_CVFI.pth'
 
 gpu = 0
 torch.cuda.set_device(gpu)
