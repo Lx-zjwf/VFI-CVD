@@ -3,7 +3,6 @@ import sys
 import torch
 import yaml
 from functools import partial
-os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 sys.path.append('../../../../')
 from trainers import trainer, cvfi_train
