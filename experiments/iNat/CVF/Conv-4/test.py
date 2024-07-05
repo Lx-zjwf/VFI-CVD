@@ -19,7 +19,7 @@ model_path = './model_Close.pth'
 gpu = 0
 torch.cuda.set_device(gpu)
 
-model = BiFRN(resnet=False)
+model = VD_CVFI()
 model.cuda()
 model.load_state_dict(torch.load(model_path, map_location=util.get_device_map(gpu)), strict=True)
 model.eval()
