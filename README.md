@@ -58,4 +58,4 @@ The state-of-the-art few-shot fine-grained recognition (FS-FGR) methods compared
 
 In the following table, we report the classification accuracies in the 5-way 1-shot setting on FS-FGR datasets:
 
-![./Figure/main results.jpg](https://github.com/348632874/VFI-CVD/blob/main/Figure/Main%20Results.jpg)
+![./Figure/main results.jpg](https://github.com/348632874/VFI-CVD/blob/main/Figure/Main%20Result.png)
