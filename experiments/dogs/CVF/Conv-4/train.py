@@ -3,8 +3,6 @@ import sys
 import yaml
 from functools import partial
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '1'
-
 sys.path.append('../../../../')
 from trainers import trainer, cvfi_train
 from datasets import dataloaders
