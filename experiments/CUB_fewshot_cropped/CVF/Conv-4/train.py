@@ -3,7 +3,6 @@ import sys
 import torch
 import yaml
 from functools import partial
-os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 import clip
 
 sys.path.append('../../../../')
