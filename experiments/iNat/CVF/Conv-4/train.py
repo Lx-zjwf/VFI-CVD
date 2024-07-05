@@ -25,8 +25,7 @@ train_loader = dataloaders.meta_train_dataloader(data_path=pm.train,
                                                  shots=shots,
                                                  transform_type=args.train_transform_type)
 
-model = BiFRN(way=train_way,
-              shots=[args.train_shot, args.train_query_shot])
+model = VD_CVFI(way=train_way, shots=[args.train_shot, args.train_query_shot])
 # 'RN50', 'RN101', 'RN50x4', 'RN50x16', 'RN50x64', 'ViT-B/32', 'ViT-B/16', 'ViT-L/14'
 vlm, preprocess = clip.load('ViT-B/32', device='cuda')
 
