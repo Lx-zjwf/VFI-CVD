@@ -57,7 +57,7 @@ The state-of-the-art few-shot fine-grained recognition (FS-FGR) methods compared
 # Experimental Resulst
 |          | CUB   | Dog   | Car   | iNat  |
 |----------|-------|-------|-------|-------|
-| ProtoNet | 64.13 | 46.83 | 50.88 | 50.43 |
+| ProtoNet | 64.13$\pm$0.21 | 46.83 | 50.88 | 50.43 |
 | FRN      | 74.23 | 58.49 | 67.58 | 58.86 |
 | TDM      | 74.96 | 61.19 | 69.10 | 63.97 |
 | BiFRN    | 76.46 | 65.05 | 75.56 | 64.34 |
