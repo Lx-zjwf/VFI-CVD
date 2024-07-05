@@ -58,12 +58,4 @@ The state-of-the-art few-shot fine-grained recognition (FS-FGR) methods compared
 
 In the following table, we report the classification accuracies in the 5-way 1-shot setting on FS-FGR datasets:
 
-|          | CUB   | Dog   | Car   | iNat  |
-|----------|-------|-------|-------|-------|
-| ProtoNet | 64.13 | 46.83 | 50.88 | 50.43 |
-| FRN      | 74.23 | 58.49 | 67.58 | 58.86 |
-| TDM      | 74.96 | 61.19 | 69.10 | 63.97 |
-| BiFRN    | 76.46 | 65.05 | 75.56 | 64.34 |
-| LCCRN    | 76.23 | 62.18 | 74.88 | 66.65 |
-| C2-Net   | 78.71 | 68.90 | 79.29 | 64.08 |
-| Ours     | **90.37** | **80.19** | **89.47** | **84.38** |
+![./Figure/main results.jpg](https://github.com/348632874/VFI-CVD/blob/main/Figure/Main%20Results.jpg)
