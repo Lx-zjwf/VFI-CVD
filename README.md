@@ -17,7 +17,7 @@ conda env create -f environment.yml
 conda activate VFI-CVD
 ```
 
-The vision foundation model CLIP\[[Paper](https://arxiv.org/abs/2103.00020),[Code](https://github.com/openai/CLIP)\] is installed as:
+The vision foundation model CLIP \[[Paper](https://arxiv.org/abs/2103.00020),[Code](https://github.com/openai/CLIP)\] is installed as:
 
 ```
 $ pip install ftfy regex tqdm
@@ -26,7 +26,7 @@ $ pip install git+https://github.com/openai/CLIP.git
 
 ## Dataset
 
-Thanks to the contribution of [BiFRN](https://github.com/PRIS-CV/Bi-FRN), the code is implemeted based on it with the processed few-shot fine-grained recognition datasets: [CUB-200-2011](https://drive.google.com/file/d/1WxDB3g3U_SrF2sv-DmFYl8LS0p_wAowh/view), [Stanford Cars](https://drive.google.com/file/d/1ImEPQH5gHpSE_Mlq8bRvxxcUXOwdHIeF/view?usp=drive_link), [Stanford Dogs](https://drive.google.com/file/d/13avzK22oatJmtuyK0LlShWli00NsF6N0/view?usp=drive_link). In addition, we perform experiments on the challenging benchmark dataset iNaturalist2017\[[Data](https://ml-inat-competition-datasets.s3.amazonaws.com/2017/train_val_images.tar.gz), [Annotation](https://ml-inat-competition-datasets.s3.amazonaws.com/2017/train_2017_bboxes.zip)\]. The iNaturalist is processed into the few-shot version by `./data/init_meta_iNat.py`, which follows the usage in [FRN](https://github.com/Tsingularity/FRN). The closed_set studies are conducted on the data processed by `./data/closed_set.py`.
+Thanks to the contribution of [BiFRN](https://github.com/PRIS-CV/Bi-FRN), the code is implemeted based on it with the processed few-shot fine-grained recognition datasets: [CUB-200-2011](https://drive.google.com/file/d/1WxDB3g3U_SrF2sv-DmFYl8LS0p_wAowh/view), [Stanford Cars](https://drive.google.com/file/d/1ImEPQH5gHpSE_Mlq8bRvxxcUXOwdHIeF/view?usp=drive_link), [Stanford Dogs](https://drive.google.com/file/d/13avzK22oatJmtuyK0LlShWli00NsF6N0/view?usp=drive_link). In addition, we perform experiments on the challenging benchmark dataset iNaturalist2017 \[[Data](https://ml-inat-competition-datasets.s3.amazonaws.com/2017/train_val_images.tar.gz), [Annotation](https://ml-inat-competition-datasets.s3.amazonaws.com/2017/train_2017_bboxes.zip)\]. The iNaturalist is processed into the few-shot version by `./data/init_meta_iNat.py`, which follows the usage in [FRN](https://github.com/Tsingularity/FRN). The closed_set studies are conducted on the data processed by `./data/closed_set.py`.
 
 ## Train
 
