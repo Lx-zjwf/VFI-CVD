@@ -8,7 +8,7 @@ Code relaese for *Describing Visual Attributes with Pre-trained Image Encoder fo
 
 A Variational Feature Imitation method Conditioned on Visual Descriptions, namely VFI-CVD, is proposed, which integrates the pre-trained knowledge from a vision foundation model and the expert knowledge captured via a feature extractor, thus generating representations with adequate generalization and fine-grained discrimination capability.
 
-## Code environment
+## Code Environment
 
 * You can create a conda environment with the correct dependencies using the following command lines:
 
@@ -44,7 +44,7 @@ cd experiments/CUB_fewshot_cropped/CVF/Conv-4
 python ./test.py
 ```
 
-## Experiments
+## Related Work
 
 The state-of-the-art few-shot fine-grained recognition (FS-FGR) methods compared in our study:
 **:open_file_folder:** | **Pub.** | **Title** | **Links** 
@@ -53,3 +53,14 @@ The state-of-the-art few-shot fine-grained recognition (FS-FGR) methods compared
 :triangular_flag_on_post: | **AAAI** | Bi-directional Feature Reconstruction Network for Fine-Grained Few-Shot Image Classification | [Paper](https://arxiv.org/abs/2211.17161)/[Code](https://github.com/PRIS-CV/Bi-FRN)
 :scroll: | **TCSVT** | Locally-Enriched Cross-Reconstruction for Few-Shot Fine-Grained Image Classification | [Paper](https://ieeexplore.ieee.org/abstract/document/10123101)/[Code](https://github.com/lutsong/LCCRN)
 :triangular_flag_on_post: | **CVPR** | Task Discrepancy Maximization for Fine-Grained Few-Shot Classification | [Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Lee_Task_Discrepancy_Maximization_for_Fine-Grained_Few-Shot_Classification_CVPR_2022_paper.html)/[Code](https://github.com/leesb7426/CVPR2022-Task-Discrepancy-Maximization-for-Fine-grained-Few-Shot-Classification)
+
+# Experimental Resulst
+|          | CUB   | Dog   | Car   | iNat  |
+|----------|-------|-------|-------|-------|
+| ProtoNet | 64.13 | 46.83 | 50.88 | 50.43 |
+| FRN      | 74.23 | 58.49 | 67.58 | 58.86 |
+| TDM      | 74.96 | 61.19 | 69.10 | 63.97 |
+| BiFRN    | 76.46 | 65.05 | 75.56 | 64.34 |
+| LCCRN    | 76.23 | 62.18 | 74.88 | 66.65 |
+| C2-Net   | 78.71 | 68.90 | 79.29 | 64.08 |
+| Ours     | 90.37 | 80.19 | 89.47 | 84.38 |
