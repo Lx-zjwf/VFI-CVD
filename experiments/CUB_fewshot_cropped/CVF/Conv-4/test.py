@@ -14,7 +14,7 @@ with open('../../../../config.yml', 'r') as f:
 data_path = os.path.abspath(temp['data_path'])
 
 test_path = os.path.join(data_path, 'CUB_fewshot_cropped/test')
-model_path = './model_Clip-FRN.pth'
+model_path = './model_CVFI.pth'
 
 gpu = 1
 torch.cuda.set_device(gpu)
