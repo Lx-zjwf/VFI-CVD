@@ -13,7 +13,7 @@ with open('../../../../config.yml', 'r') as f:
     temp = yaml.safe_load(f)
 data_path = os.path.abspath(temp['data_path'])
 
-test_path = os.path.join(data_path, 'cars_196/test_pre')
+test_path = os.path.join(data_path, 'cars_196/test')
 model_path = './model_CVFI.pth'
 
 gpu = 1
